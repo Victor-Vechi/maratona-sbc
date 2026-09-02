@@ -71,7 +71,7 @@ struct Query {
     int L, id;
 };
 
-int main() {
+int gene() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 

@@ -1,55 +1,40 @@
 #include <cmath>
 #include <iostream>
-#include <vector>
+#define CONSTANTE 3
 
 using namespace std;
 
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+long long expoMod(long long base, long long exp, long long mod) {
+    long long res = 1;
+    base = base % mod;
+    while (exp > 0) {
+        if (exp % 2 == 1) res = (res * base) % mod;
+        base = (base * base) % mod;
+        exp /= 2;
+    }
+    return res;
+}
 
-    int qtdOperacoes = 0;
 
-    cin >> qtdOperacoes;
 
-    vector<long double> Cn(qtdOperacoes);
-    vector<long double> Vn(qtdOperacoes);
+int teste() {
 
-    long long c = 0;
-    long long v = 0;
+    long long semente = 0;
 
-    for (int i = 0; i < qtdOperacoes; i++) {
-        long long compra = 0;
-        long long venda = 0;
+    cin >> semente;
 
-        cin >> compra >> venda;
+    long long total = 0;
 
-        c += compra;
-        v += venda;
-
-        Cn[i] = c;
-        Vn[i] = v;
-
+    for (long long i = semente; i >= 0; i--) {
+        long long potencia = expoMod(CONSTANTE, i, 1000000007LL);
+        if (potencia <= semente) {
+            total = semente + potencia;
+            break;
+        }
     }
 
-    int qtdConsultas = 0;
-    cin >> qtdConsultas;
-
-    vector<int> consultas(qtdConsultas);
-
-    for (int i = 0; i < qtdConsultas; i++) {
-        cin >> consultas[i];
-    }
-
-    for (int i = 0; i < qtdConsultas; i++) {
-
-        long double result = (Cn[consultas[i]-1] - Vn[consultas[i]-1]) / (Cn[consultas[i]-1] + Vn[consultas[i]-1]);
-
-        if (result > 0) cout << "COMPRA" << endl;
-        else if (result < 0) cout << "VENDA" << endl;
-        else cout << "NEUTRO" << endl;
-    }
+    cout << total;
 
     return 0;
 }
