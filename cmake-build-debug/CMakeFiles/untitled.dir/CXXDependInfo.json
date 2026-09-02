@@ -1,0 +1,37 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/capet/CLionProjects/untitled/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/capet/CLionProjects/untitled",
+	"dir-top-bld" : "C:/Users/capet/CLionProjects/untitled/cmake-build-debug",
+	"dir-top-src" : "C:/Users/capet/CLionProjects/untitled",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/capet/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir",
+	"sources" : 
+	{
+		"CMakeFiles/untitled.dir/Gene.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/capet/CLionProjects/untitled/Gene.cpp"
+		},
+		"CMakeFiles/untitled.dir/flor.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/capet/CLionProjects/untitled/flor.cpp"
+		},
+		"CMakeFiles/untitled.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/capet/CLionProjects/untitled/main.cpp"
+		}
+	}
+}
