@@ -4,6 +4,6 @@ project(untitled)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(untitled main.cpp
-        flor.cpp
+        nao-resolvidos/Flor.cpp
         nao-resolvidos/Gene.cpp
 )

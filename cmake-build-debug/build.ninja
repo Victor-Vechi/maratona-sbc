@@ -57,28 +57,20 @@ build CMakeFiles/untitled.dir/main.cpp.o: CXX_COMPILER__untitled_unscanned_Debug
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
   TARGET_SUPPORT_DIR = CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/flor.cpp.o: CXX_COMPILER__untitled_unscanned_Debug /home/www/maratona-sbc/flor.cpp || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/nao-resolvidos/Flor.cpp.o: CXX_COMPILER__untitled_unscanned_Debug /home/www/maratona-sbc/nao-resolvidos/Flor.cpp || cmake_object_order_depends_target_untitled
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/untitled.dir/flor.cpp.o.d
+  DEP_FILE = CMakeFiles/untitled.dir/nao-resolvidos/Flor.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/nao-resolvidos
   TARGET_SUPPORT_DIR = CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/Gene.cpp.o: CXX_COMPILER__untitled_unscanned_Debug /home/www/maratona-sbc/Gene.cpp || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/nao-resolvidos/Gene.cpp.o: CXX_COMPILER__untitled_unscanned_Debug /home/www/maratona-sbc/nao-resolvidos/Gene.cpp || cmake_object_order_depends_target_untitled
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/untitled.dir/Gene.cpp.o.d
+  DEP_FILE = CMakeFiles/untitled.dir/nao-resolvidos/Gene.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
-  TARGET_SUPPORT_DIR = CMakeFiles/untitled.dir
-
-build CMakeFiles/untitled.dir/AltaFrequencia.cpp.o: CXX_COMPILER__untitled_unscanned_Debug /home/www/maratona-sbc/AltaFrequencia.cpp || cmake_object_order_depends_target_untitled
-  CONFIG = Debug
-  DEP_FILE = CMakeFiles/untitled.dir/AltaFrequencia.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/nao-resolvidos
   TARGET_SUPPORT_DIR = CMakeFiles/untitled.dir
 
 
@@ -89,7 +81,7 @@ build CMakeFiles/untitled.dir/AltaFrequencia.cpp.o: CXX_COMPILER__untitled_unsca
 #############################################
 # Link the executable untitled
 
-build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/flor.cpp.o CMakeFiles/untitled.dir/Gene.cpp.o CMakeFiles/untitled.dir/AltaFrequencia.cpp.o
+build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/nao-resolvidos/Flor.cpp.o CMakeFiles/untitled.dir/nao-resolvidos/Gene.cpp.o
   CONFIG = Debug
   DEP_FILE = CMakeFiles/untitled.dir/link.d
   FLAGS = -g

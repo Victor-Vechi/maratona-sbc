@@ -1,40 +1,64 @@
 #include <cmath>
 #include <iostream>
-#define CONSTANTE 3
+#include <vector>
 
 using namespace std;
 
+struct No {
+    long long int indice;
+    long long int convites;
+    No* esquerda;
+    No* direita;
 
-long long expoMod(long long base, long long exp, long long mod) {
-    long long res = 1;
-    base = base % mod;
-    while (exp > 0) {
-        if (exp % 2 == 1) res = (res * base) % mod;
-        base = (base * base) % mod;
-        exp /= 2;
+};
+
+
+int main() {
+
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    long long qtdAmigos = 0;
+    long long qtdConvidados = 0;
+
+    cin >> qtdAmigos >> qtdConvidados;
+
+    vector<long long> amigos(qtdAmigos);
+    vector<long long> convidados(qtdAmigos);
+
+    for (long long i = 0; i < qtdConvidados; ++i) {
+        long long amigo = 0;
+        long long convidado = 0;
+        cin >> amigo >> convidado;
+
+        amigos[amigo-1] = amigo;
+        convidados[amigo-1] = convidado;
     }
-    return res;
-}
+
+    vector<long long> chegadaAmigo(qtdAmigos);
+    vector<long long> tempoAmigos(qtdAmigos);
 
 
+    for (long long i = 0; i < qtdAmigos; ++i) {
+        char resposta = ' ';
+        long long chegada = 0;
+        long long tempo = 0;
 
-int teste() {
+        cin >> resposta >> chegada >> tempo;
 
-    long long semente = 0;
-
-    cin >> semente;
-
-    long long total = 0;
-
-    for (long long i = semente; i >= 0; i--) {
-        long long potencia = expoMod(CONSTANTE, i, 1000000007LL);
-        if (potencia <= semente) {
-            total = semente + potencia;
-            break;
+        if (resposta == 'A') {
+            chegadaAmigo[i] = chegada;
+            tempoAmigos[i] = tempo;
+        } else if (resposta == 'D') {
+            chegadaAmigo[i] = -1;
+            tempoAmigos[i] = -1;
+        } else {
+            long long indiceAmigo = chegada;
+            chegadaAmigo[i] = chegadaAmigo[indiceAmigo-1];
+            tempoAmigos[i] = tempoAmigos[indiceAmigo-1];
         }
     }
 
-    cout << total;
-
+    cout << "aaaa" << endl;
     return 0;
 }

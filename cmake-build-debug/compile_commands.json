@@ -7,20 +7,14 @@
 },
 {
   "directory": "/home/www/maratona-sbc/cmake-build-debug",
-  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/flor.cpp.o -c /home/www/maratona-sbc/flor.cpp",
-  "file": "/home/www/maratona-sbc/flor.cpp",
-  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/flor.cpp.o"
+  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/nao-resolvidos/Flor.cpp.o -c /home/www/maratona-sbc/nao-resolvidos/Flor.cpp",
+  "file": "/home/www/maratona-sbc/nao-resolvidos/Flor.cpp",
+  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/nao-resolvidos/Flor.cpp.o"
 },
 {
   "directory": "/home/www/maratona-sbc/cmake-build-debug",
-  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/Gene.cpp.o -c /home/www/maratona-sbc/Gene.cpp",
-  "file": "/home/www/maratona-sbc/Gene.cpp",
-  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/Gene.cpp.o"
-},
-{
-  "directory": "/home/www/maratona-sbc/cmake-build-debug",
-  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/AltaFrequencia.cpp.o -c /home/www/maratona-sbc/AltaFrequencia.cpp",
-  "file": "/home/www/maratona-sbc/AltaFrequencia.cpp",
-  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/AltaFrequencia.cpp.o"
+  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/nao-resolvidos/Gene.cpp.o -c /home/www/maratona-sbc/nao-resolvidos/Gene.cpp",
+  "file": "/home/www/maratona-sbc/nao-resolvidos/Gene.cpp",
+  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/nao-resolvidos/Gene.cpp.o"
 }
 ]
