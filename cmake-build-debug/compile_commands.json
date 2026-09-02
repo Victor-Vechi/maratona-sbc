@@ -1,20 +1,26 @@
 [
 {
-  "directory": "C:/Users/capet/CLionProjects/untitled/cmake-build-debug",
-  "command": "\"F:\\CLion 2026.2.1\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\untitled.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\untitled.dir\\main.cpp.obj -c C:\\Users\\capet\\CLionProjects\\untitled\\main.cpp",
-  "file": "C:/Users/capet/CLionProjects/untitled/main.cpp",
-  "output": "C:/Users/capet/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
+  "directory": "/home/www/maratona-sbc/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/main.cpp.o -c /home/www/maratona-sbc/main.cpp",
+  "file": "/home/www/maratona-sbc/main.cpp",
+  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
 },
 {
-  "directory": "C:/Users/capet/CLionProjects/untitled/cmake-build-debug",
-  "command": "\"F:\\CLion 2026.2.1\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\untitled.dir\\flor.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\untitled.dir\\flor.cpp.obj -c C:\\Users\\capet\\CLionProjects\\untitled\\flor.cpp",
-  "file": "C:/Users/capet/CLionProjects/untitled/flor.cpp",
-  "output": "C:/Users/capet/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/flor.cpp.obj"
+  "directory": "/home/www/maratona-sbc/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/flor.cpp.o -c /home/www/maratona-sbc/flor.cpp",
+  "file": "/home/www/maratona-sbc/flor.cpp",
+  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/flor.cpp.o"
 },
 {
-  "directory": "C:/Users/capet/CLionProjects/untitled/cmake-build-debug",
-  "command": "\"F:\\CLion 2026.2.1\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\untitled.dir\\Gene.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\untitled.dir\\Gene.cpp.obj -c C:\\Users\\capet\\CLionProjects\\untitled\\Gene.cpp",
-  "file": "C:/Users/capet/CLionProjects/untitled/Gene.cpp",
-  "output": "C:/Users/capet/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Gene.cpp.obj"
+  "directory": "/home/www/maratona-sbc/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/Gene.cpp.o -c /home/www/maratona-sbc/Gene.cpp",
+  "file": "/home/www/maratona-sbc/Gene.cpp",
+  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/Gene.cpp.o"
+},
+{
+  "directory": "/home/www/maratona-sbc/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/AltaFrequencia.cpp.o -c /home/www/maratona-sbc/AltaFrequencia.cpp",
+  "file": "/home/www/maratona-sbc/AltaFrequencia.cpp",
+  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/AltaFrequencia.cpp.o"
 }
 ]

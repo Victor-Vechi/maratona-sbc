@@ -1,4 +1,4 @@
-"F:\CLion 2026.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=F:/CLion 2026.2.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\capet\CLionProjects\untitled -B C:\Users\capet\CLionProjects\untitled\cmake-build-debug
--- Configuring done (0.7s)
--- Generating done (0.1s)
--- Build files have been written to: C:/Users/capet/CLionProjects/untitled/cmake-build-debug
+/snap/clion/489/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/489/bin/ninja/linux/x64/ninja -G Ninja -S /home/www/maratona-sbc -B /home/www/maratona-sbc/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/www/maratona-sbc/cmake-build-debug
