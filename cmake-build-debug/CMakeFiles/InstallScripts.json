@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/www/maratona-sbc/cmake-build-debug/cmake_install.cmake"
+		"C:/Users/capet/CLionProjects/maratona-sbc/cmake-build-debug/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

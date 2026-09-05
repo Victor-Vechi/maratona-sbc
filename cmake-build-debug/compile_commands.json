@@ -1,20 +1,20 @@
 [
 {
-  "directory": "/home/www/maratona-sbc/cmake-build-debug",
-  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/main.cpp.o -c /home/www/maratona-sbc/main.cpp",
-  "file": "/home/www/maratona-sbc/main.cpp",
-  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "directory": "C:/Users/capet/CLionProjects/maratona-sbc/cmake-build-debug",
+  "command": "\"F:\\CLion 2026.2.1\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\untitled.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\untitled.dir\\main.cpp.obj -c C:\\Users\\capet\\CLionProjects\\maratona-sbc\\main.cpp",
+  "file": "C:/Users/capet/CLionProjects/maratona-sbc/main.cpp",
+  "output": "C:/Users/capet/CLionProjects/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
 },
 {
-  "directory": "/home/www/maratona-sbc/cmake-build-debug",
-  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/nao-resolvidos/Flor.cpp.o -c /home/www/maratona-sbc/nao-resolvidos/Flor.cpp",
-  "file": "/home/www/maratona-sbc/nao-resolvidos/Flor.cpp",
-  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/nao-resolvidos/Flor.cpp.o"
+  "directory": "C:/Users/capet/CLionProjects/maratona-sbc/cmake-build-debug",
+  "command": "\"F:\\CLion 2026.2.1\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\untitled.dir\\nao-resolvidos\\Flor.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\untitled.dir\\nao-resolvidos\\Flor.cpp.obj -c C:\\Users\\capet\\CLionProjects\\maratona-sbc\\nao-resolvidos\\Flor.cpp",
+  "file": "C:/Users/capet/CLionProjects/maratona-sbc/nao-resolvidos/Flor.cpp",
+  "output": "C:/Users/capet/CLionProjects/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/nao-resolvidos/Flor.cpp.obj"
 },
 {
-  "directory": "/home/www/maratona-sbc/cmake-build-debug",
-  "command": "/usr/bin/c++ -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/untitled.dir/nao-resolvidos/Gene.cpp.o -c /home/www/maratona-sbc/nao-resolvidos/Gene.cpp",
-  "file": "/home/www/maratona-sbc/nao-resolvidos/Gene.cpp",
-  "output": "/home/www/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/nao-resolvidos/Gene.cpp.o"
+  "directory": "C:/Users/capet/CLionProjects/maratona-sbc/cmake-build-debug",
+  "command": "\"F:\\CLion 2026.2.1\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\untitled.dir\\nao-resolvidos\\Gene.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\untitled.dir\\nao-resolvidos\\Gene.cpp.obj -c C:\\Users\\capet\\CLionProjects\\maratona-sbc\\nao-resolvidos\\Gene.cpp",
+  "file": "C:/Users/capet/CLionProjects/maratona-sbc/nao-resolvidos/Gene.cpp",
+  "output": "C:/Users/capet/CLionProjects/maratona-sbc/cmake-build-debug/CMakeFiles/untitled.dir/nao-resolvidos/Gene.cpp.obj"
 }
 ]

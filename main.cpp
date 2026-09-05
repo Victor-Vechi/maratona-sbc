@@ -35,8 +35,6 @@ int main() {
         if (amigo != 0) {
             string resposta;
             long long i = amigo - 1;
-            long long chegada = 0;
-            long long tempo = 0;
 
             cin >> resposta;
 
@@ -47,11 +45,17 @@ int main() {
                 convidados[i] = 0;
             } else if (resposta == "A") {
                 cin >> chegadaAmigo[i] >> tempoAmigos[i];
+                tempoAmigos[i] += chegadaAmigo[i];
             } else if (resposta == "T") {
                 long long indiceAmigo = 0;
                 cin >> indiceAmigo;
                 chegadaAmigo[i] = chegadaAmigo[indiceAmigo-1];
                 tempoAmigos[i] = tempoAmigos[indiceAmigo-1];
+
+                if (amigos[indiceAmigo-1] == 0) {
+                    amigos[i] = 0;
+                    convidados[i] = 0;
+                }
             } else {
                 chegadaAmigo[i] = 0;
                 tempoAmigos[i] = 0;
@@ -59,16 +63,12 @@ int main() {
         }
     }
 
-    vector<long long> intervaloAmigos(qtdAmigos);
 
-    for (int i = 0; i < qtdAmigos; ++i) intervaloAmigos[i] = chegadaAmigo[i] + tempoAmigos[i];
+    erase_if(amigos, [](const long long x) { return x == 0; });
+    erase_if(convidados, [](const long long x) { return x == 0; });
 
-    erase_if(chegadaAmigo, [](long long x) { return x == 0; });
-    erase_if(tempoAmigos, [](long long x) { return x == 0; });
-    erase_if(convidados, [](long long x) { return x == 0; });
-    erase_if(amigos, [](long long x) { return x == 0; });
-    erase_if(intervaloAmigos, [](long long x) { return x == 0; });
-    erase_if(intervaloAmigos, [](long long x) { return x == 0; });
+    erase_if(chegadaAmigo, [](const long long x) { return x == 0; });
+    erase_if(tempoAmigos, [](const long long x) { return x == 0; });
 
     cout << "aaaa" << endl;
     return 0;

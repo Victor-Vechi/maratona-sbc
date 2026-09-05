@@ -1,4 +1,5 @@
-ToolSet: 1.0 (local)Ninja: 1.13.2@/snap/clion/493/bin/ninja/linux/x64/ninja
+ToolSet: 14.0 w64 (local)@F:\CLion 2026.2.1\bin\mingw
+Ninja: 1.13.2@F:\CLion 2026.2.1\bin\ninja\win\x64\ninja.exe
 Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=/snap/clion/493/bin/ninja/linux/x64/ninja
+Options:-DCMAKE_MAKE_PROGRAM=F:/CLion 2026.2.1/bin/ninja/win/x64/ninja.exe
